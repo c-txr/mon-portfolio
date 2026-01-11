@@ -145,6 +145,11 @@
             letter-spacing: -0.5px;
         }
 
+        .section-title-background{
+            background-color: #F19999;
+            border-radius: 8px;
+        }
+
         .about-content {
             display: flex;
             gap: 60px;
