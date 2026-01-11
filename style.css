@@ -328,8 +328,10 @@
             font-weight: 100;
             margin-bottom: 60px;
             letter-spacing: -0.5px;
+            background-color: #F19999;
         }
 
+    
         .contact-form {
             max-width: 500px;
             margin: 0 auto;
@@ -415,6 +417,10 @@
             display: flex;
             gap: 20px;
             justify-content: center;
+        }
+
+        .social-links img{
+            width: 30px;
         }
 
         .social-links a {
