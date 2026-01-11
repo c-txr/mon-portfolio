@@ -8,6 +8,11 @@
             box-sizing: border-box;
         }
 
+        /* Ajout d'un scroll plus agréable lorsque l'on clique sur les liens */
+        html{
+            scroll-behavior: smooth;
+        }
+
         /* ===== STYLES GLOBAUX (Design Apple) ===== */
         body {
             font-family: "Inter", sans-serif;
