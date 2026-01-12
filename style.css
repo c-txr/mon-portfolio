@@ -1,7 +1,10 @@
 
-        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-        /* ===== RÉINITIALISATION (Reset) ===== */
+       /* Font Inter pour les titres*/
+       @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+       /* Font Roboto pour le texte*/
+       @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+       
+       /* ===== RÉINITIALISATION (Reset) ===== */
         * {
             margin: 0;
             padding: 0;
@@ -70,6 +73,7 @@
             font-weight: 100;
             font-size: 1rem;
             transition: opacity 0.3s;
+            font-family: "Roboto", sans serif;
         }
 
       
@@ -102,7 +106,8 @@
             margin-left: auto;
             margin-right: auto;
             line-height: 1.6;
-            font-weight: 400;
+            font-weight: 300;
+            font-family: "Roboto", sans-serif;
         }
 
         .cta-button {
@@ -115,6 +120,7 @@
             font-weight: 500;
             transition: all 0.3s;
             font-size: 1.05rem;
+            font-family: "Roboto", sans serif;
             
         }
     
@@ -231,6 +237,7 @@
             font-size: 1rem;
             font-weight: 400;
             line-height: 1.6;
+            font-family: "Roboto", sans serif;
         }
 
         /* ===== PROJECTS SECTION ===== */
@@ -301,6 +308,7 @@
             margin-bottom: 20px;
             font-size: 1.1rem;
             line-height: 1.7;
+            font-family: "Roboto", sans serif;
         }
 
         .project-link {
@@ -311,6 +319,7 @@
             transition: color 0.3s;
             font-size: 1.05rem;
             display: block;
+            font-family: "Roboto", sans serif;
         }
 
       
@@ -350,6 +359,7 @@
             font-weight: 100;
             font-size: 1rem;
             color: white;
+            font-family: "Roboto", sans serif;
         }
 
         .form-group input,
@@ -376,10 +386,11 @@
             border: none;
             border-radius: 8px;
             font-weight: 600;
-            font-size: 1.05rem;
+            font-size: 1.08rem;
             cursor: pointer;
             transition: all 0.3s;
             margin-top: 16px;
+            font-family: "Roboto", sans serif;
         }
 
                /* ===== FOOTER ===== */
@@ -410,6 +421,7 @@
         .footer-section p {
             font-size: 0.9rem;
             line-height: 1.6;
+            font-family: "Roboto", sans serif;
         }
 
         .social-links {
@@ -434,6 +446,7 @@
             color: #a1a1a6;
             padding-top: 40px;
             border-top: 1px solid #F19999;
+            font-family: "Roboto", sans serif;
         }
 
         /* ANIMATIONS CSS */
@@ -444,7 +457,7 @@
         .cta-button:hover{
             background-color: #F19999;
         }
-        
+
         .skill-card:hover{
             transition: transform 0.3s ease;
             transform: translateY(-10px);
