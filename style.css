@@ -470,6 +470,12 @@
             cursor: pointer;
         }
 
+        .project-card:hover{
+            transition: transform 0.3s ease;
+            transform: translateY(-10px);
+            cursor: pointer;
+        }
+
         .submit-button:hover{
             border: solid 2px white;
 
