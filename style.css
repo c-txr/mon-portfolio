@@ -96,7 +96,7 @@
 
         .hero p {
             font-size: 1.3rem;
-            color: #6f6f74;
+            color: white;
             margin-bottom: 40px;
             max-width: 600px;
             margin-left: auto;
@@ -107,11 +107,10 @@
 
         .cta-button {
             display: inline-block;
-            background-color: transparent;
+            background-color: #9b5cc2;
             color: white;
             padding: 14px 32px;
-            border-radius: 10px;
-            border: solid 2px black;
+            border-radius: 15px;
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s;
@@ -371,7 +370,7 @@
         }
 
         .submit-button {
-            background-color: #0071e3;
+            background-color: #9b5cc2;
             color: white;
             padding: 14px;
             border: none;
@@ -437,7 +436,27 @@
             border-top: 1px solid #F19999;
         }
 
+        /* ANIMATIONS CSS */
+        .nav-links a:hover{
+            color: #F19999;
+        }
 
+        .cta-button:hover{
+            background-color: #F19999;
+        }
+        
+        .skill-card:hover{
+            transition: transform 0.3s ease;
+            transform: translateY(-10px);
+            cursor: pointer;
+        }
+
+        .submit-button:hover{
+            background-color: #F19999;
+        }
+    
+
+       
         /* ===== MEDIA QUERIES (RESPONSIVE) ===== */
 
              /* Tablette (768px et moins) */
