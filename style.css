@@ -82,7 +82,7 @@
             color: white;
             --x: 50%;
             --y: 50%;
-            background: radial-gradient(circle at var(--x) var(--y), #F19999 0%, #000000 48%); /* Ajout d'un background gradient*/
+            background: radial-gradient(circle at var(--x) var(--y), #F19999 0%, #000000 33%); /* Ajout d'un background gradient*/
             padding: 140px 0;
             text-align: center;
             display: flex;
@@ -319,7 +319,7 @@
 
         .project-link {
             display: inline-block;
-            color: #0071e3;
+            color: black;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
@@ -475,7 +475,9 @@
 
         }
     
-        .hero{
+        .project-link:hover{
+        background-color: #000000;
+        color: #F19999;
 
         }
 
